@@ -1,0 +1,127 @@
+/*サイト共通CSS*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(images/backround.jpeg);
+}
+
+hr{
+    width: 1100px;
+    height: 1px;
+    margin: 60px auto 60px auto;
+}
+
+h2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 72px;
+    letter-spacing: 0.05em;
+}
+
+p{
+    font-family: 'M PLUS 1', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+
+/*firstview*/
+
+.nav{
+    text-align: center;
+    padding: 10px 70px 70px 70px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'M PLUS 1', sans-serif;
+    font-weight: lighter;
+}
+
+.button a{
+    background-color: #2E4056;
+    color: #ffffff;
+    margin: 20px;
+    padding: 10px 30px;
+    display: block;
+    width: 400px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.more-button{
+    background-color: #2E4056;
+    color: #ffffff;
+    margin: 40px 20px 20px 20px;
+    padding: 10px 30px;
+    display: block;
+    width: 100px;
+    text-decoration: none;   
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.firstview-title{
+    text-align: center;
+    align-items: center;
+}
+
+.title h1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 72px;
+    letter-spacing: 0.05em;
+}
+
+.title p{
+    font-size: 24px;
+}
+
+.title hr{
+    width: 800px;
+}
+
+
+/*about*/
+
+.about-box{
+    display: inline-block;
+    justify-content: center;
+    width: 800px;
+    align-items: center;
+}
+
+.about-box img{
+    float: left;
+    margin-right: 60px;
+
+}
+
+.about-text{
+    align-self: center;
+}
+
+
+/*#about img{
+    float: left;
+    margin-left: 20%;
+    margin-right: 4%;
+    padding-bottom: 20px;
+
+}
+
+.about-text{
+    margin-right: 20%;
+    align-self: center;
+}
+
+.about-text h2{
+}
+*/
