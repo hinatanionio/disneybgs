@@ -91,37 +91,24 @@ a:visited{
 
 /*about*/
 
-.about-box{
-    display: inline-block;
+#about{
+    width: 100vw;
     justify-content: center;
-    width: 800px;
     align-items: center;
+}
+
+.about-box{
+    display: flex;
+    margin: auto; 
+    width: 800px;
 }
 
 .about-box img{
     float: left;
     margin-right: 60px;
-
+    width: 300px;
 }
 
 .about-text{
     align-self: center;
 }
-
-
-/*#about img{
-    float: left;
-    margin-left: 20%;
-    margin-right: 4%;
-    padding-bottom: 20px;
-
-}
-
-.about-text{
-    margin-right: 20%;
-    align-self: center;
-}
-
-.about-text h2{
-}
-*/
