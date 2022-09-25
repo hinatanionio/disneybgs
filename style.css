@@ -7,11 +7,13 @@
 
 body{
     background-image: url(images/backround.jpeg);
+    width: 100%;
 }
+
 
 hr{
     width: 1100px;
-    height: 1px;
+    height: 0.5px;
     margin: 60px auto 60px auto;
 }
 
@@ -19,6 +21,7 @@ h2{
     font-family: 'DM Serif Display', serif;
     font-size: 72px;
     letter-spacing: 0.05em;
+    line-height: 0.95em;
 }
 
 p{
@@ -48,11 +51,28 @@ p{
     text-align: center;
 }
 
+h3{
+    font-family: 'M PLUS 1', sans-serif;
+    font-weight: black;
+    font-size: 56px; 
+}
+
+
+/*.detail{
+    background-color: #F3EDE1;
+}
+
+.modal p{
+    width: 400px;
+}
+
 .fadein{
     opacity: 0;
     transform: translateY(20px); 
     transition: all 1s; 
 }
+
+*/
 
 
 /*firstview*/
@@ -94,6 +114,10 @@ a:visited{
     text-decoration: none;   
     margin-left: auto;
     margin-right: auto; 
+}
+
+.open-box{
+    display: none;
 }
 
 .firstview-title{
@@ -155,4 +179,177 @@ a:visited{
 
 .mh-box img{
     width: 500px;
+}
+
+
+/*american waterfront*/
+
+.aw-box{
+    margin: auto;
+    width: 800px;
+    text-align: center;
+}
+
+.aw-box p{
+    margin: 30px 0;
+}
+
+.aw-box img{
+    width: 500px;
+}
+
+
+/*port discovery*/
+
+.pd-box{
+    align-items: center;
+    display: flex;
+    margin: 0 auto; 
+}
+
+.pd-box img{
+    width: 450px;
+    float: left;
+}
+
+.pd-text{
+    width: 620px;
+}
+
+.pd-text p{
+    margin-top: 20px;
+}
+
+
+/*lost river delta*/
+
+.lrd-box{
+    margin: 0 auto;
+    width: 800px;
+}
+
+.lrd-box h2{
+    line-height: 1.3em;
+    float: left;
+}
+
+
+/*arabian coast*/
+
+.ac-box{
+    margin: auto;
+    width: 600px;
+    text-align: center;
+}
+
+.ac-box h2{
+    letter-spacing: 0.05em;
+}
+
+.ac-box p{
+    margin: 30px 0;
+}
+
+.ac-box img{
+    width: 600px;
+}
+
+
+/*marmaid lagoon*/
+
+.ml-box{
+    margin: 0 80px;
+    text-align: left;
+}
+
+.ml-box img {
+    width: 600px;
+}
+
+.ml-img{
+    display: flex; 
+    margin-left: 35px;
+}
+
+.ml-img p{
+    margin: 10px 0;
+}
+
+.ml-title{
+    width: 380px;
+    align-self: center;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+.ml-title h2{
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.ml-box p{
+    margin-top: 15px;
+}
+
+
+/*mysterious island*/
+
+.mi-box{
+    margin: 0 auto; 
+}
+
+.mi-box h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.mi-text{
+    width: 450px;
+    margin: 20px 30px 0 0;
+    float: left;
+}
+
+.mi-img{
+    display: flex; 
+}
+
+.mi-img img{
+    height: 300px;
+}
+
+
+/*message*/
+
+#message{
+    text-align: center;
+    padding: 50px 0 80px 0;
+}
+
+#message p{
+    width: 700px;
+    margin: 0 auto;
+    padding: 40px 0; 
+}
+
+#message a{
+    background-color: #2E4056;
+    color: #ffffff;
+    margin: 20px;
+    padding: 10px 30px;
+    display: block;
+    width: 150px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'M PLUS 1', sans-serif;
+    text-align: center;
+}
+
+
+/*footer*/
+footer{
+    text-align: center;
+    margin: 30px 0;
+    font-family: 'M PLUS 1', sans-serif;
+    font-weight: lighter;
 }
