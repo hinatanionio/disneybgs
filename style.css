@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+section{
+    overflow: hidden;
+  }
+  
 body{
     background-image: url(images/backround.jpeg);
     width: 100%;
@@ -16,12 +20,24 @@ hr{
     height: 0.5px;
     margin: 60px auto 60px auto;
 }
+@media(max-width:450px){
+    hr{
+        width: 80vw;
+    }
+}
+
 
 h2{
     font-family: 'DM Serif Display', serif;
     font-size: 72px;
     letter-spacing: 0.05em;
     line-height: 0.95em;
+}
+
+@media(max-width:450px){
+    h2{
+        font-size: 32px; 
+    }
 }
 
 p{
@@ -36,6 +52,13 @@ p{
     padding: 50px;
     border: 1px solid;
 }
+@media(max-width:450px){
+    .section-box{
+        margin: 20px;
+        padding: 20px;
+    }
+}
+
 
 .modal a{
     background-color: #2E4056;
@@ -54,25 +77,76 @@ p{
 h3{
     font-family: 'M PLUS 1', sans-serif;
     font-weight: black;
-    font-size: 56px; 
+    font-size: 40px; 
+    
 }
 
-
-/*.detail{
+.detail{
     background-color: #F3EDE1;
+    padding: 0 20px;
+    border: 1px solid;
 }
 
-.modal p{
-    width: 400px;
+.detail-text{
+    width: 500px;
+    float: left;
+    margin: auto 0; 
+    align-self: center;
+    clear: both; 
 }
 
-.fadein{
-    opacity: 0;
-    transform: translateY(20px); 
-    transition: all 1s; 
+.detail-text p{
+    padding: 30px 50px 0 0;
 }
 
-*/
+.detail img{
+    width: 350px;
+    margin: 20px;
+}
+
+.fuwatAnime {
+    -webkit-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1.5s;
+    -ms-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-name: fuwatAnime;
+    -ms-animation-name: fuwatAnime;
+    animation-name: fuwatAnime;
+    visibility: visible !important;
+  }
+  
+  @-webkit-keyframes fuwatAnime {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(-20px);
+    }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+    }
+  }
+  
+  @keyframes fuwatAnime {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(-20px);
+      -ms-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+
+
+
 
 
 /*firstview*/
@@ -98,6 +172,13 @@ h3{
     margin-left: auto;
     margin-right: auto;
 }
+
+/*
+@media(max-width:450px){
+    .button a{
+        width: 200px;
+}
+*/
 
 a:visited{
     text-decoration: none;
@@ -140,6 +221,23 @@ a:visited{
 }
 
 
+@media(max-width:450px){
+    .title h1{
+        font-size: 56px;
+        margin: 0 20px;
+    }
+    .title p{
+        font-size: 20px;
+    }
+    .title hr{
+        width: 80vw;
+    }
+    .firstview-title img{
+        width: 90vw;
+    }
+}
+
+
 /*about*/
 
 #about{
@@ -164,6 +262,27 @@ a:visited{
     align-self: center;
 }
 
+@media(max-width:450px){
+    #about{
+        width: 100vw;
+
+    }
+    .about-box{
+        display: block;
+    }
+    .about-box img{
+        margin: 0 auto;
+        width: 60vw;
+        float: none;
+    }
+    .about-text{
+        width: 85vw;
+        margin: 20px;
+        align-items: center;
+    }
+}
+
+
 
 /*mediterranean harbor*/
 
@@ -181,6 +300,25 @@ a:visited{
     width: 500px;
 }
 
+@media(max-width:450px){
+    .mh-box{
+        margin: 0;
+        align-items: center;
+    }
+    .mh-box h2{
+        margin-bottom: 15px;
+    }
+    .mh-text{
+        float: none;
+        width: 80vw;
+        margin: 0;
+    }
+    .mh-box img{
+        width: 80vw;
+    }
+}
+
+
 
 /*american waterfront*/
 
@@ -197,6 +335,18 @@ a:visited{
 .aw-box img{
     width: 500px;
 }
+
+@media(max-width:450px){
+    .aw-box{
+        margin: 0;
+        align-items: center;
+        width: 80vw;
+    }
+    .aw-box img{
+        width: 80vw;
+    }
+}
+
 
 
 /*port discovery*/
@@ -220,6 +370,21 @@ a:visited{
     margin-top: 20px;
 }
 
+@media(max-width:450px){
+    .pd-box{
+        margin: 0;
+        width: 80vw;
+    }
+    .pd-box img{
+        width: 80vw;
+        float: none;
+    }
+    .pd-text{
+        width: 80vw;
+    }
+}
+
+
 
 /*lost river delta*/
 
@@ -232,6 +397,18 @@ a:visited{
     line-height: 1.3em;
     float: left;
 }
+
+@media(max-width:450px){
+    .lrd-box{
+        margin: 0;
+        width: 80vw;
+        align-items: center;
+    }
+    .lrd-box img{
+        width: 50vw;
+    }
+}
+
 
 
 /*arabian coast*/
@@ -253,6 +430,20 @@ a:visited{
 .ac-box img{
     width: 600px;
 }
+
+@media(max-width:450px){
+    .ac-box{
+        width: 80vw;
+    }
+    .ac-box h2{
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .ac-box img{
+        width: 80vw;
+    }
+}
+
 
 
 /*marmaid lagoon*/
@@ -292,6 +483,30 @@ a:visited{
 }
 
 
+@media(max-width:450px){
+    .ml-box{
+        margin: 0;
+        width: 80vw;
+        text-align: left;
+    }
+    .ml-box img{
+        width: 80vw;
+    }
+    .ml-img{
+        display: none; 
+        margin: 0;
+    }
+    .ml-title{
+        width: 80vw;
+        padding: 0;
+        margin: 0;
+    }
+    .ml-box p{
+        margin: 0;
+    }
+}
+
+
 /*mysterious island*/
 
 .mi-box{
@@ -311,11 +526,30 @@ a:visited{
 
 .mi-img{
     display: flex; 
+    margin: 0 auto;
 }
 
 .mi-img img{
     height: 300px;
 }
+
+@media(max-width:450px){
+    .ml-box{
+        display: block; 
+    }
+    .mi-text{
+        width: 80vw;
+        margin: 0;
+        float: none;
+    }
+    .ml-img{
+        width: 60vw;
+    }
+    .ml-img img{
+        width: 70vw;
+    }
+}
+
 
 
 /*message*/
@@ -343,6 +577,12 @@ a:visited{
     margin-right: auto;
     font-family: 'M PLUS 1', sans-serif;
     text-align: center;
+}
+
+@media(max-width:450px){
+    #message p{
+        width: 80vw;
+    }
 }
 
 
