@@ -85,6 +85,7 @@ h3{
     background-color: #F3EDE1;
     padding: 0 20px;
     border: 1px solid;
+    align-items: center;
 }
 
 .detail-text{
@@ -102,6 +103,22 @@ h3{
 .detail img{
     width: 350px;
     margin: 20px;
+}
+
+@media(max-width:450px){
+    h3{
+        font-size: 32px;
+    }
+    .detail-text{
+        width: 80vw;
+    }
+    .detail-text p{
+        padding: 0;
+    }
+    .detail img{
+        width: 65vw;
+        margin: 0 auto;
+    }
 }
 
 .fuwatAnime {
@@ -146,6 +163,9 @@ h3{
   }
 
 
+  .modaal-content-container{
+      padding: 0;
+  }
 
 
 
@@ -173,12 +193,13 @@ h3{
     margin-right: auto;
 }
 
-/*
+
 @media(max-width:450px){
     .button a{
-        width: 200px;
+        width: 50vw;
+    }
 }
-*/
+
 
 a:visited{
     text-decoration: none;
@@ -268,7 +289,9 @@ a:visited{
 
     }
     .about-box{
-        display: block;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .about-box img{
         margin: 0 auto;
@@ -279,6 +302,10 @@ a:visited{
         width: 85vw;
         margin: 20px;
         align-items: center;
+    }
+    .about-text h2{
+        text-align: center;
+        padding-bottom: 15px;
     }
 }
 
@@ -303,7 +330,9 @@ a:visited{
 @media(max-width:450px){
     .mh-box{
         margin: 0;
-        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .mh-box h2{
         margin-bottom: 15px;
@@ -315,6 +344,7 @@ a:visited{
     }
     .mh-box img{
         width: 80vw;
+        margin: 0 auto;
     }
 }
 
@@ -340,7 +370,9 @@ a:visited{
     .aw-box{
         margin: 0;
         align-items: center;
-        width: 80vw;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .aw-box img{
         width: 80vw;
@@ -373,7 +405,9 @@ a:visited{
 @media(max-width:450px){
     .pd-box{
         margin: 0;
-        width: 80vw;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .pd-box img{
         width: 80vw;
@@ -451,6 +485,9 @@ a:visited{
 .ml-box{
     margin: 0 80px;
     text-align: left;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .ml-box img {
@@ -486,7 +523,9 @@ a:visited{
 @media(max-width:450px){
     .ml-box{
         margin: 0;
-        width: 80vw;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
         text-align: left;
     }
     .ml-box img{
