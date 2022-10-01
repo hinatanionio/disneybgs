@@ -119,6 +119,13 @@ h3{
     margin: 20px;
 }
 
+.modal-close:focus:after,
+.modal-close:focus:before,
+.modal-close:hover:after,
+.modal-close:hover:before {
+    background: #2E4056;
+}
+
 @media(max-width:450px){
     h3{
         font-size: 32px;
@@ -614,6 +621,7 @@ a:visited{
     }
     .mi-img img{
         height: 20vh;
+        margin: 0 auto; 
     }
     /*
     .ml-box{
