@@ -101,13 +101,11 @@ h3{
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
+    display: flex;
 }
 
 .detail-text{
     width: 500px;
-    float: left;
-    justify-content: center;
-    align-self: center;
 }
 
 .detail-text p{
